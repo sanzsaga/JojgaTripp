@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f5132">
+  <meta name="description" content="jogjatripp.id - Paket wisata Jogja, private trip, custom tour, Merapi, Prambanan, Borobudur, Gunungkidul dan destinasi terbaik Yogyakarta.">
+  <meta property="og:title" content="jogjatripp.id | Jelajahi Jogja">
+  <meta property="og:description" content="Paket wisata Jogja yang nyaman, fleksibel dan mudah dibooking via WhatsApp.">
+  <meta property="og:type" content="website">
+  <title>jogjatripp.id | Paket Wisata Jogja & Tour Yogyakarta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="announcement">🌿 Liburan lebih mudah — custom itinerary, driver ramah & booking via WhatsApp</div>
+
+  <header class="navbar" id="navbar">
+    <a class="logo" href="#home"><span>jogja</span>tripp<span class="dot">.</span>id</a>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#destinasi">Destinasi</a>
+      <a href="#paket">Paket</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#faq">FAQ</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/6285328910780?text=Halo%20jogjatripp.id%2C%20saya%20ingin%20booking%20paket%20wisata%20Jogja." target="_blank" rel="noopener">Booking <i class="fa-solid fa-arrow-right"></i></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu"><i class="fa-solid fa-bars"></i></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content reveal">
+        <span class="eyebrow"><i class="fa-solid fa-location-dot"></i> Yogyakarta, Indonesia</span>
+        <h1>Jelajahi Jogja,<br><em>ciptakan cerita</em> tak terlupakan.</h1>
+        <p>Nikmati wisata alam, budaya, pantai, kuliner dan petualangan Jogja dengan perjalanan yang nyaman dan itinerary fleksibel.</p>
+        <div class="hero-actions">
+          <a href="#paket" class="btn btn-primary">Lihat Paket <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="https://wa.me/6285328910780?text=Halo%20jogjatripp.id%2C%20saya%20ingin%20konsultasi%20wisata%20Jogja." target="_blank" rel="noopener" class="btn btn-light"><i class="fa-brands fa-whatsapp"></i> Konsultasi</a>
+        </div>
+        <div class="hero-trust">
+          <span><i class="fa-solid fa-circle-check"></i> Driver berpengalaman</span>
+          <span><i class="fa-solid fa-circle-check"></i> Mobil + BBM</span>
+          <span><i class="fa-solid fa-circle-check"></i> Bisa custom trip</span>
+        </div>
+      </div>
+      <div class="scroll-cue"><span></span> Scroll untuk eksplor</div>
+    </section>
+
+    <section class="quick-book container reveal">
+      <div class="quick-title"><small>PLAN YOUR TRIP</small><h2>Mau liburan ke mana?</h2></div>
+      <div class="quick-fields">
+        <label><i class="fa-solid fa-map-location-dot"></i><span>Destinasi<select id="destination"><option>Prambanan</option><option>Merapi</option><option>Gunungkidul</option><option>Borobudur</option><option>Malioboro</option><option>Custom Trip</option></select></span></label>
+        <label><i class="fa-regular fa-calendar"></i><span>Tanggal<input id="date" type="date"></span></label>
+        <label><i class="fa-solid fa-users"></i><span>Jumlah orang<select id="people"><option>1–4 orang</option><option>5–8 orang</option><option>9–15 orang</option><option>16+ orang</option></select></span></label>
+        <button class="btn btn-primary" id="searchPackage">Cari Paket</button>
+      </div>
+    </section>
+
+    <section class="section" id="destinasi">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="section-kicker">EXPLORE YOGYAKARTA</span><h2>Destinasi favorit di Jogja</h2></div>
+          <p>Mulai dari candi bersejarah sampai pantai eksotis, pilih pengalaman yang paling cocok untuk perjalananmu.</p>
+        </div>
+        <div class="destination-grid">
+          <article class="destination-card tall reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=1000&q=85" alt="Candi Prambanan Yogyakarta"><div class="destination-info"><span>Heritage</span><h3>Candi Prambanan</h3><p>Megah, bersejarah, dan ikonik.</p></div></article>
+          <article class="destination-card reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1503457574463-9e9a8d6f1f5b?auto=format&fit=crop&w=900&q=85" alt="Gunung Merapi"><div class="destination-info"><span>Adventure</span><h3>Gunung Merapi</h3><p>Petualangan seru dengan jeep.</p></div></article>
+          <article class="destination-card reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=85" alt="Candi Borobudur"><div class="destination-info"><span>Culture</span><h3>Borobudur</h3><p>Warisan budaya yang memukau.</p></div></article>
+          <article class="destination-card reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?auto=format&fit=crop&w=900&q=85" alt="Pantai Yogyakarta"><div class="destination-info"><span>Beach</span><h3>Pantai Gunungkidul</h3><p>Pasir, laut, dan sunset.</p></div></article>
+          <article class="destination-card reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1555899434-94d1368aaac1?auto=format&fit=crop&w=900&q=85" alt="Jalan Malioboro Yogyakarta"><div class="destination-info"><span>City</span><h3>Malioboro</h3><p>Belanja, kuliner dan suasana Jogja.</p></div></article>
+          <article class="destination-card reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=85" alt="Taman wisata alam Yogyakarta"><div class="destination-info"><span>Nature</span><h3>Hutan Pinus</h3><p>Sejuk, hijau dan cocok untuk foto.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="paket">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="section-kicker">TRAVEL PACKAGES</span><h2>Paket wisata yang siap jalan</h2></div>
+          <p>Pilih paket favorit atau minta kami membuat itinerary custom sesuai waktu dan tujuanmu.</p>
+        </div>
+        <div class="package-grid">
+          <article class="package-card reveal"><div class="package-img"><img loading="lazy" src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=900&q=85" alt="Paket wisata Prambanan"><span class="badge">POPULAR</span></div><div class="package-body"><div class="package-top"><h3>Explore Jogja</h3><strong>Rp700K</strong></div><small>1 hari • private trip</small><ul><li>Lava Tour Merapi</li><li>Candi Prambanan</li><li>Hutan Pinus</li><li>Picnic Land</li></ul><a class="package-btn" href="#" data-package="Explore Jogja">Booking Paket <i class="fa-solid fa-arrow-right"></i></a></div></article>
+          <article class="package-card reveal"><div class="package-img"><img loading="lazy" src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=900&q=85" alt="Keraton Yogyakarta"><span class="badge">HERITAGE</span></div><div class="package-body"><div class="package-top"><h3>Jogja Heritage</h3><strong>Rp700K</strong></div><small>1 hari • culture trip</small><ul><li>Keraton & Taman Sari</li><li>Borobudur</li><li>Malioboro</li><li>Wisata kuliner</li></ul><a class="package-btn" href="#" data-package="Jogja Heritage">Booking Paket <i class="fa-solid fa-arrow-right"></i></a></div></article>
+          <article class="package-card reveal"><div class="package-img"><img loading="lazy" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=85" alt="Pantai Gunungkidul"><span class="badge">ADVENTURE</span></div><div class="package-body"><div class="package-top"><h3>Gunungkidul Trip</h3><strong>Rp800K</strong></div><small>1 hari • beach & adventure</small><ul><li>Goa Pindul</li><li>Pantai Timang</li><li>Pantai Gunungkidul</li><li>HeHa Sky View</li></ul><a class="package-btn" href="#" data-package="Gunungkidul Trip">Booking Paket <i class="fa-solid fa-arrow-right"></i></a></div></article>
+          <article class="package-card reveal"><div class="package-img"><img loading="lazy" src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=85" alt="Borobudur"><span class="badge">FAMILY</span></div><div class="package-body"><div class="package-top"><h3>Borobudur & Jogja</h3><strong>Rp800K</strong></div><small>1 hari • family trip</small><ul><li>Candi Borobudur</li><li>VW Safari</li><li>Sungai Mudal</li><li>Malioboro</li></ul><a class="package-btn" href="#" data-package="Borobudur & Jogja">Booking Paket <i class="fa-solid fa-arrow-right"></i></a></div></article>
+          <article class="package-card custom-card reveal"><div class="custom-icon"><i class="fa-solid fa-route"></i></div><div><span class="section-kicker">CUSTOM TRIP</span><h3>Atur sendiri perjalananmu</h3><p>Pilih destinasi, waktu dan gaya liburan sesuai kebutuhan. Cocok untuk keluarga, pasangan maupun group.</p><a class="btn btn-primary" href="https://wa.me/6285328910780?text=Halo%20jogjatripp.id%2C%20saya%20ingin%20membuat%20custom%20trip%20Jogja." target="_blank" rel="noopener">Buat Custom Trip</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container feature-layout">
+        <div class="feature-photo reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1200&q=85" alt="Wisata budaya Yogyakarta"></div>
+        <div class="feature-copy reveal"><span class="section-kicker">WHY JOGJATRIPP.ID</span><h2>Liburan lebih nyaman, itinerary lebih fleksibel.</h2><p>Kami membantu kamu menikmati Jogja tanpa ribet. Tentukan destinasi, tanggal dan jumlah peserta, lalu biarkan perjalanan kami yang mengurus sisanya.</p><div class="benefit-grid"><div><i class="fa-solid fa-car"></i><h4>Mobil nyaman</h4><p>Armada sesuai kebutuhan perjalanan.</p></div><div><i class="fa-solid fa-user-tie"></i><h4>Driver ramah</h4><p>Berpengalaman dan mengenal Jogja.</p></div><div><i class="fa-solid fa-sliders"></i><h4>Flexible trip</h4><p>Itinerary dapat disesuaikan.</p></div><div><i class="fa-solid fa-headset"></i><h4>Fast response</h4><p>Booking mudah melalui WhatsApp.</p></div></div></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="galeri">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="section-kicker">JOGJA MOMENTS</span><h2>Galeri perjalanan</h2></div><p>Beberapa inspirasi momen untuk perjalanan Jogja berikutnya.</p></div>
+        <div class="gallery">
+          <button class="gallery-item g1 reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=1000&q=85" alt="Prambanan"></button>
+          <button class="gallery-item g2 reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=85" alt="Pantai"></button>
+          <button class="gallery-item g3 reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=85" alt="Borobudur"></button>
+          <button class="gallery-item g4 reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1555899434-94d1368aaac1?auto=format&fit=crop&w=1000&q=85" alt="Malioboro"></button>
+          <button class="gallery-item g5 reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=85" alt="Nature"></button>
+          <button class="gallery-item g6 reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1503457574463-9e9a8d6f1f5b?auto=format&fit=crop&w=1000&q=85" alt="Merapi"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section itinerary">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="section-kicker">SAMPLE ITINERARY</span><h2>Seharian keliling Jogja</h2></div><p>Contoh itinerary yang bisa diubah sesuai kebutuhan perjalananmu.</p></div>
+        <div class="timeline">
+          <div class="timeline-item reveal"><time>08:00</time><div><b>Penjemputan</b><p>Hotel / stasiun area Yogyakarta.</p></div></div>
+          <div class="timeline-item reveal"><time>09:00</time><div><b>Candi Prambanan</b><p>Eksplorasi heritage dan spot foto.</p></div></div>
+          <div class="timeline-item reveal"><time>12:00</time><div><b>Makan siang</b><p>Kuliner khas Jogja pilihan.</p></div></div>
+          <div class="timeline-item reveal"><time>14:00</time><div><b>Taman Sari</b><p>Menjelajahi sejarah dan arsitektur.</p></div></div>
+          <div class="timeline-item reveal"><time>16:30</time><div><b>Malioboro</b><p>Belanja oleh-oleh dan menikmati suasana kota.</p></div></div>
+          <div class="timeline-item reveal"><time>19:00</time><div><b>Kembali</b><p>Antar ke hotel / titik akhir perjalanan.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-head reveal"><div><span class="section-kicker">TRAVEL STORIES</span><h2>Cerita dari traveler</h2></div></div>
+        <div class="testimonial-grid">
+          <article class="testimonial reveal"><div class="stars">★★★★★</div><p>“Trip-nya menyenangkan, driver ramah dan itinerary bisa disesuaikan dengan keluarga kami.”</p><b>Andi — Jakarta</b></article>
+          <article class="testimonial reveal"><div class="stars">★★★★★</div><p>“Mobil nyaman dan booking sangat mudah. Destinasi juga bisa request sesuai waktu.”</p><b>Rina — Bandung</b></article>
+          <article class="testimonial reveal"><div class="stars">★★★★★</div><p>“Cocok untuk liburan keluarga. Anak-anak menikmati perjalanan tanpa terasa capek.”</p><b>Dimas — Surabaya</b></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container faq-layout">
+        <div class="reveal"><span class="section-kicker">FAQ</span><h2>Pertanyaan yang sering ditanyakan</h2><p>Masih bingung memilih paket? Hubungi kami dan ceritakan rencana perjalananmu.</p><a class="btn btn-primary" href="https://wa.me/6285328910780?text=Halo%20jogjatripp.id%2C%20saya%20ingin%20bertanya%20tentang%20paket%20wisata." target="_blank" rel="noopener">Tanya via WhatsApp</a></div>
+        <div class="faq-list reveal">
+          <details open><summary>Apakah bisa custom destinasi?</summary><p>Bisa. Kamu dapat memilih destinasi sendiri dan menyesuaikan durasi serta waktu perjalanan.</p></details>
+          <details><summary>Apakah harga sudah termasuk driver dan BBM?</summary><p>Paket yang tercantum dapat disesuaikan; detail fasilitas dan biaya akan dikonfirmasi saat booking.</p></details>
+          <details><summary>Apakah bisa dijemput di hotel atau stasiun?</summary><p>Bisa untuk area yang disepakati. Silakan informasikan lokasi penjemputan saat booking.</p></details>
+          <details><summary>Apakah bisa untuk group?</summary><p>Bisa. Kami dapat membantu menyesuaikan kendaraan dan itinerary berdasarkan jumlah peserta.</p></details>
+          <details><summary>Bagaimana cara booking?</summary><p>Klik tombol Booking/WhatsApp, kirim paket yang dipilih, tanggal, jumlah peserta dan lokasi penjemputan.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="kontak">
+      <div class="cta-bg"></div><div class="container cta-content reveal">
+        <span class="section-kicker">READY TO GO?</span>
+        <h2>Siap menjelajahi Jogja?</h2>
+        <p>Rencanakan perjalananmu sekarang. Kami bantu susun trip yang nyaman dan berkesan.</p>
+        <a class="btn btn-white" href="https://wa.me/6285328910780?text=Halo%20jogjatripp.id%2C%20saya%20siap%20liburan%20ke%20Jogja.%20Mohon%20info%20paket." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Booking via WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="logo footer-logo" href="#home"><span>jogja</span>tripp<span class="dot">.</span>id</a><p>Wisata bersama, lebih berkesan.</p></div>
+      <div><h4>Explore</h4><a href="#destinasi">Destinasi</a><a href="#paket">Paket Wisata</a><a href="#galeri">Galeri</a><a href="#faq">FAQ</a></div>
+      <div><h4>Destinasi</h4><a href="#destinasi">Prambanan</a><a href="#destinasi">Merapi</a><a href="#destinasi">Gunungkidul</a><a href="#destinasi">Malioboro</a></div>
+      <div><h4>Kontak</h4><a href="https://wa.me/6285328910780" target="_blank">0853 2891 0780</a><a href="#">@jogjatripp.id</a><a href="#">Yogyakarta, Indonesia</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 jogjatripp.id</span><span>Made for your Jogja adventure ✦</span></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox"><button id="closeLightbox"><i class="fa-solid fa-xmark"></i></button><img id="lightboxImg" src="" alt=""></div>
+  <a class="wa-float" href="https://wa.me/6285328910780?text=Halo%20jogjatripp.id%2C%20saya%20ingin%20booking%20wisata%20Jogja." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i><span>Chat Sekarang</span></a>
+  <button class="to-top" id="toTop" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></button>
+  <div class="mobile-book"><a href="https://wa.me/6285328910780?text=Halo%20jogjatripp.id%2C%20saya%20ingin%20booking%20wisata%20Jogja." target="_blank"><i class="fa-brands fa-whatsapp"></i> Booking Sekarang</a></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
